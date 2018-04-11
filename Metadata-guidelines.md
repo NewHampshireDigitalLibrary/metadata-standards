@@ -1,31 +1,31 @@
-#DPLA New Hampshire Hub
-##A Simple Guide to Describing Your Digital Objects
+# DPLA New Hampshire Hub
+## A Simple Guide to Describing Your Digital Objects
 
 Any item that is scanned with the intent of sharing online should have descriptive information associated with it. This information is called metadata, or, “data about data.”
 
 It is important to write metadata in a manner that is consistent with established standards. This consistency helps computer systems present the information correctly on the screen, and also enables the ability to search and browse resources from several institutions all at one time. Without consistent, quality metadata, this would be very difficult.
 
-In 2015, the Digital Public Library of America (DPLA) published version 4.0 of the Metadata Application Profile: [https://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf]. The profile provides guidance for writing metadata in a manner that is both consistent with other institutions and allows those institutions to easily share their resources on the DPLA platform.
+In 2015, the Digital Public Library of America (DPLA) published version 4.0 of the Metadata Application Profile: https://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf. The profile provides guidance for writing metadata in a manner that is both consistent with other institutions and allows those institutions to easily share their resources on the DPLA platform.
 
 This document is a simplified guide for writing metadata according to those DPLA specifications.
 
 
 
-##General guidelines1
+## General guidelines1
 
-###Avoid abbreviations
+### Avoid abbreviations
 Avoid the use of abbreviations. Spell out the full names of communities and states. For example, use “Mount Washington,” not “Mt. Washington” and “New Hampshire,” not “NH.” 
 
 Exceptions where the use of abbreviations is acceptable include terms used with dates (such as “b.” for “born”), distinguishing terms added to names of persons (such as "Mrs."), or widely accepted terms (such as “St.” for “Saint”), or abbreviations prescribed by controlled vocabularies for use in the Subject field (e.g. “Beloit (Wis.)” from Library of Congress Subject Headings).
 
-###Capitalization
+### Capitalization
 Capitalize all proper names. Capitalize only the first word in titles and subject terms. Capitalize content in the description field according to normal rules of writing. Do not enter content in all capital letters except in the case of acronyms.
 
-###Characters to avoid
+### Characters to avoid
 Do not use ampersands (&) or ellipses (. . .). Do not use HTML tags. For example, do not use <br>
 or <br /> within metadata fields to force a line break.
 
-###Unknown data
+### Unknown data
 Fields for which there is no available information should be left blank. Avoid using “unknown,” “anonymous,” etc.
 ---
 	
