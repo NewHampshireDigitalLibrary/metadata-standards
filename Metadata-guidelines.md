@@ -102,6 +102,7 @@ A term broadly characterizing the type of resource being described.
 Select the appropriate term from the DCMI Type vocabulary: http://dublincore.org/documents/2010/10/11/dcmi-type-vocabulary/
 
 |Example |Definition|
+|--------|----------|
 |MovingImage |A visual representation in motion, such as movies, television programs, animation|
 |Sound |A resource primarily intended to be heard, such as oral history audio recordings, music|
 |StillImage |A static visual representation other than text, such as photographs, postcards, maps, paintings, and images of three-dimensional objects|
