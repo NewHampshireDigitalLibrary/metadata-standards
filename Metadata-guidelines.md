@@ -11,7 +11,7 @@ This document is a simplified guide for writing metadata according to those DPLA
 
 
 
-## General guidelines [^Credit for this section goes to Recollection Wisconsin Metadata Essentials, November 2016]
+## General guidelines <sup>[1](#footnote1)</sup>
 
 ### Avoid abbreviations
 Avoid the use of abbreviations. Spell out the full names of communities and states. For example, use “Mount Washington,” not “Mt. Washington” and “New Hampshire,” not “NH.” 
@@ -188,3 +188,4 @@ Example: Concord, New Hampshire: New Hampshire Historical Society
 
 Questions?
 Contact the New Hampshire DPLA Hub Metadata Committee
+<a name='footnote1'>1</a>: Credit for this section goes to Recollection Wisconsin Metadata Essentials, November 2016
