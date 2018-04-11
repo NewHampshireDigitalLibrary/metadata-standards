@@ -11,7 +11,7 @@ This document is a simplified guide for writing metadata according to those DPLA
 
 
 
-## General guidelines1
+## General guidelines [^Credit for this section goes to Recollection Wisconsin Metadata Essentials, November 2016]
 
 ### Avoid abbreviations
 Avoid the use of abbreviations. Spell out the full names of communities and states. For example, use “Mount Washington,” not “Mt. Washington” and “New Hampshire,” not “NH.” 
@@ -27,6 +27,7 @@ or <br /> within metadata fields to force a line break.
 
 ### Unknown data
 Fields for which there is no available information should be left blank. Avoid using “unknown,” “anonymous,” etc.
+
 ---
 	
 Guidelines for filling in the following metadata elements are described in this document:
