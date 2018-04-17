@@ -1,11 +1,11 @@
 # New Hamphsire Digital Library Metadata Standards
 ## A Simple Guide to Describing Your Digital Objects
 
-Any item that is scanned with the intent of sharing online should have descriptive information associated with it. This information is called metadata, or, “data about data.”
+Any item that is intended to be shared online should have descriptive information associated with it. This information is called metadata, or, “data about data.”
 
 It is important to write metadata in a manner that is consistent with established standards. This consistency helps computer systems present the information correctly on the screen, and also enables the ability to search and browse resources from several institutions all at one time. Without consistent, quality metadata, this would be very difficult.
 
-In 2015, the Digital Public Library of America (DPLA) published version 4.0 of the Metadata Application Profile: https://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf. The profile provides guidance for writing metadata in a manner that is both consistent with other institutions and allows those institutions to easily share their resources on the DPLA platform.
+In December 2017, the Digital Public Library of America (DPLA) published version 5.0 of the Metadata Application Profile, available from https://pro.dp.la/hubs/metadata-application-profile. The profile provides guidance for writing metadata in a manner that is both consistent with other institutions and allows those institutions to easily share their resources on the DPLA platform.
 
 This document is a simplified guide for writing metadata according to those DPLA specifications.
 
@@ -22,8 +22,7 @@ Exceptions where the use of abbreviations is acceptable include terms used with 
 Capitalize all proper names. Capitalize only the first word in titles and subject terms. Capitalize content in the description field according to normal rules of writing. Do not enter content in all capital letters except in the case of acronyms.
 
 ### Characters to avoid
-Do not use ampersands (&) or ellipses (. . .). Do not use HTML tags. For example, do not use <br>
-or <br /> within metadata fields to force a line break.
+Do not use ampersands (&) or ellipses (. . .). Do not use HTML tags. For example, do not use `<br>` or `<br />` within metadata fields to force a line break.
 
 ### Unknown data
 Fields for which there is no available information should be left blank. Avoid using “unknown,” “anonymous,” etc.
@@ -32,24 +31,24 @@ Fields for which there is no available information should be left blank. Avoid u
 	
 ##Guidelines for filling in the following metadata elements are described in this document:
 
-|Element Name| Required by DPLA?|
-|------------|------------------|
-|Creator |Strongly Recommended|
-|Contributor |Optional
-|Date |Strongly Recommended|
-|Description |Strongly Recommended|
-|Format |Optional|
-|Identifier ||
-|Language |Required
-Place Strongly Recommended|
-|Publisher |Optional
-Rights Required|
-|Subject |Strongly Recommended|
-|Title |Required|
-|Type |Required|
+|Element Name| Required by DPLA| Required by NH HUB|
+|------------|------------------|------------------|
+|Creator |Strongly Recommended|Strongly Recommended|
+|Contributor |Optional|Optional|
+|Date |Strongly Recommended|Strongly Recommended|
+|Description |Strongly Recommended|Strongly Recommended|
+|Format |Optional|Optional|
+|Identifier |Optional|Required
+|Language |Required|Required|
+Place |Strongly Recommended|Strongly Recommended|
+|Publisher |Optional|Optional|
+Rights |Required|Required|
+|Subject |Strongly Recommended|Strongly Recommended|
+|Title |Required|Required|
+|Type |Required|Required|
 
 ## Guidelines for using the elements
-When describing an object, describe the physical resource that was scanned.
+When describing an object, describe the physical resource.
 
 ### Required Elements
 
@@ -66,11 +65,11 @@ Each institution may create their own identifying system, but they must be consi
 Required when the object contains readable text. Use the ISO 639-2 code. 
 
 For example:
-English: 	eng
-French: 	fre
-Greek: 	gre
-Latin:	lat
-Spanish: 	spa
+English: eng
+French: fre
+Greek: gre
+Latin: lat
+Spanish: spa
 
 For other language codes, please see: 
 https://www.loc.gov/standards/iso639-2/php/code_list.php
@@ -78,7 +77,7 @@ https://www.loc.gov/standards/iso639-2/php/code_list.php
 #### Rights
 Statement describing the copyright status or other rights and restrictions associated with the resource. 
 
-Select the appropriate statement from RightsStatements.org. Examples:
+Select the appropriate statement from [RightsStatements.org](http://rightsstatements.org/en/). Examples:
 
 |Rights Statement |RightsStatements.org Definition|
 |-----------------|-------------------------------|
@@ -93,8 +92,8 @@ When it is a published item (like a book or map):
 Enter the title exactly as it is written on the object. Only capitalize the first word and any proper nouns.
 
 When it is an unpublished item (like a photograph or letter):
-    - Look for a title from the creator, such as a caption.
-    - If this does not exist, write your own title. Include the creator of the item (if known) and the subject matter in the title, particularly the location if known.
+* Look for a title from the creator, such as a caption.
+* If this does not exist, write your own title. Include the creator of the item (if known) and the subject matter in the title, particularly the location if known.
 
 #### Type
 A term broadly characterizing the type of resource being described.
@@ -117,7 +116,7 @@ The person or organization responsible for creating the item, such as an author 
 If a personal name, enter in Lastname, Firstname format.
 
 #### Date
-The date the item was either created or published. 
+The date the item was either created or published. Use the format YYYY-MM-DD, YYYY-MM, or YYYY for a single known date.
 
 |Example |Explanation|
 |--------|-----------|
@@ -173,6 +172,7 @@ This field may also contain the place of publication in addition to the publishe
 Example: Concord, New Hampshire: New Hampshire Historical Society
 
 Questions?
-Contact the New Hampshire DPLA Hub Metadata Committee
+Contact the New Hampshire DPLA Hub Metadata Committee:
+[NH-digital-library-tech@googlegroups.com](mailto:NH-digital-library-tech@googlegroups.com)
 
 <a name='footnote1'>1</a>: Credit for this section goes to Recollection Wisconsin Metadata Essentials, November 2016
