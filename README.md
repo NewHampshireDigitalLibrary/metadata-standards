@@ -132,7 +132,7 @@ A free-text description of the resource.
 
 The description should be written in complete sentences. Do not use abbreviations, ampersands or paragraph and line breaks. Maintain standard capitalization rules.
 
-#### Place
+#### Location
 The location or area that is described or represented by the resource. 
 
 Enter the most specific element of the location known (e.g. city, village) followed by the state name. Avoid abbreviations. Use of the Getty Thesaurus of Geographic Names (TGN) is encouraged.
