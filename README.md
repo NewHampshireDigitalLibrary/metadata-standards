@@ -28,24 +28,25 @@ Do not use ampersands (&) or ellipses (. . .). Do not use HTML tags. For example
 Fields for which there is no available information should be left blank. Avoid using “unknown,” “anonymous,” etc.
 
 ---
-	
+Metadata describing each item is written according to the Dublin Core Qualified metadata schema. While there are many Dublin Core elements, the following are either required or recommended.
+
 ##Guidelines for filling in the following metadata elements are described in this document:
 
-|Element Name| Required by DPLA| Required by NH HUB|
-|------------|------------------|------------------|
-|Creator |Strongly Recommended|Strongly Recommended|
-|Contributor |Optional|Optional|
-|Date |Strongly Recommended|Strongly Recommended|
-|Description |Strongly Recommended|Strongly Recommended|
-|Format |Optional|Optional|
-|Identifier |Optional|Required
-|Language |Required|Required|
-Place |Strongly Recommended|Strongly Recommended|
-|Publisher |Optional|Optional|
-Rights |Required|Required|
-|Subject |Strongly Recommended|Strongly Recommended|
-|Title |Required|Required|
-|Type |Required|Required|
+Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
+|------------|------------------|------------------|------------------|
+|Creator |dc.creator| Strongly Recommended|Strongly Recommended|
+|Contributor |dc.contributor| Optional|Optional|
+|Date |dc.date |Strongly Recommended|Strongly Recommended|
+|Description |dc.description |Strongly Recommended|Strongly Recommended|
+|Format |dc.format |Optional|Optional|
+|Identifier |dc.identifier |Optional|Required
+|Language |dc.language |Required|Required|
+|Location |dc.coverage |Strongly Recommended|Strongly Recommended|
+|Publisher |dc.publisher |Optional|Optional|
+|Rights |dc.rights |Required|Required|
+|Subject |dc.subject |Strongly Recommended|Strongly Recommended|
+|Title |dc.title |Required|Required|
+|Type |dc.type |Required|Required|
 
 ## Guidelines for using the elements
 When describing an object, describe the physical resource.
@@ -137,10 +138,10 @@ The location or area that is described or represented by the resource.
 Enter the most specific element of the location known (e.g. city, village) followed by the state name. Avoid abbreviations. Use of the Getty Thesaurus of Geographic Names (TGN) is encouraged.
 
 Examples: 
-New Hampshire
-Concord, New Hampshire
-Dianas Baths, Carroll County, New Hampshire
-Mount Chocorua, Carroll County, New Hampshire
+- New Hampshire
+- Concord, New Hampshire
+- Dianas Baths, Carroll County, New Hampshire
+- Mount Chocorua, Carroll County, New Hampshire
 
 #### Subject
 Topic of described resource. Generally, this field will contain terms that describe what is depicted in an image, or terms that describe what a text is about.
