@@ -1,4 +1,4 @@
-# New Hamphsire Digital Library Metadata Standards
+# New Hampshire Digital Library Metadata Standards
 ## A Simple Guide to Describing Your Digital Objects
 
 Any item that is intended to be shared online should have descriptive information associated with it. This information is called metadata, or, “data about data.”
