@@ -42,6 +42,7 @@ Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
 |Identifier |dc.identifier |Optional|Required
 |Language |dc.language |Required|Required|
 |Location |dc.coverage |Strongly Recommended|Strongly Recommended|
+|Physical Repository |dc.provenance |Required|Required|
 |Publisher |dc.publisher |Optional|Optional|
 |Rights |dc.rights |Required|Required|
 |Subject |dc.subject |Strongly Recommended|Strongly Recommended|
