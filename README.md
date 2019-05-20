@@ -14,7 +14,7 @@ This document is a simplified guide for writing metadata according to those DPLA
 ## General guidelines <sup>[1](#footnote1)</sup>
 
 ### Avoid abbreviations
-Avoid the use of abbreviations. Spell out the full names of communities and states. For example, use “Mount Washington,” not “Mt. Washington” and “New Hampshire,” not “NH.” 
+Avoid the use of abbreviations. Spell out the full names of communities and states. For example, use “Mount Washington,” not “Mt. Washington” and “New Hampshire,” not “NH.”
 
 Exceptions where the use of abbreviations is acceptable include terms used with dates (such as “b.” for “born”), distinguishing terms added to names of persons (such as "Mrs."), or widely accepted terms (such as “St.” for “Saint”), or abbreviations prescribed by controlled vocabularies for use in the Subject field (e.g. “Beloit (Wis.)” from Library of Congress Subject Headings).
 
@@ -30,9 +30,11 @@ Fields for which there is no available information should be left blank. Avoid u
 ---
 Metadata describing each item is written according to the Dublin Core Qualified metadata schema. While there are many Dublin Core elements, the following are either required or recommended.
 
-##Guidelines for filling in the following metadata elements are described in this document:
+## Metadata fields
 
-Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
+Guidelines for filling in the following metadata elements are described in this document:
+
+|Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
 |------------|------------------|------------------|------------------|
 |Creator |dc.creator| Strongly Recommended|Strongly Recommended|
 |Contributor |dc.contributor| Optional|Optional|
@@ -64,7 +66,7 @@ Where NPL stands for Nashua Public Library; 2017 represents the year it was digi
 Each institution may create their own identifying system, but they must be consistent and unique.
 
 #### Language
-Required when the object contains readable text. Use the ISO 639-2 code. 
+Required when the object contains readable text. Use the ISO 639-2 code.
 
 For example:
 English: eng
@@ -73,11 +75,11 @@ Greek: gre
 Latin: lat
 Spanish: spa
 
-For other language codes, please see: 
+For other language codes, please see:
 https://www.loc.gov/standards/iso639-2/php/code_list.php
 
 #### Rights
-Statement describing the copyright status or other rights and restrictions associated with the resource. 
+Statement describing the copyright status or other rights and restrictions associated with the resource.
 
 Select the appropriate statement from [RightsStatements.org](http://rightsstatements.org/en/). Examples:
 
@@ -113,7 +115,7 @@ Select the appropriate term from the DCMI Type vocabulary: http://dublincore.org
 ### Strongly Recommended Elements
 
 #### Creator
-The person or organization responsible for creating the item, such as an author or photographer. 
+The person or organization responsible for creating the item, such as an author or photographer.
 
 If a personal name, enter in Lastname, Firstname format.
 
@@ -129,16 +131,16 @@ The date the item was either created or published. Use the format YYYY-MM-DD, YY
 |1910-1920 |Photograph created between 1910 and 1920|
 
 #### Description
-A free-text description of the resource. 
+A free-text description of the resource.
 
 The description should be written in complete sentences. Do not use abbreviations, ampersands or paragraph and line breaks. Maintain standard capitalization rules.
 
 #### Location
-The location or area that is described or represented by the resource. 
+The location or area that is described or represented by the resource.
 
 Enter the most specific element of the location known (e.g. city, village) followed by the state name. Avoid abbreviations. Use of the Getty Thesaurus of Geographic Names (TGN) is encouraged.
 
-Examples: 
+Examples:
 - New Hampshire
 - Concord, New Hampshire
 - Dianas Baths, Carroll County, New Hampshire
@@ -173,7 +175,38 @@ This field may also contain the place of publication in addition to the publishe
 
 Example: Concord, New Hampshire: New Hampshire Historical Society
 
-Questions?
+## Metadata mapping
+
+This table describes how New Hampshire Digital Library fields are mapped to the DPLA's Metadata Application Profile.
+
+|Label|DPLA Property|NHDL Property|
+|-----|-------------|-------------|
+|Alternative Title|dpla:SourceResource / dcterms:alternative|dcterms:alternative|
+|Collection|dpla:SourceResource / dcterms:isPartOf|dcterms:isPartOf|
+|Contributor|dpla:SourceResource / dcterms:contributor|dc:contributor|
+|Creator|dpla:SourceResource / dcterms:creator|dc:creator|
+|Date|dpla:SourceResource / dc:date|dcterms:created|
+|Description|dpla:SourceResource / dcterms:description|dc:description|
+|Extent|dpla:SourceResource / dcterms:extent|dcterms:extent|
+|Format|dpla:SourceResource / dc:format|dc:format|
+|Genre|dpla:SourceResource / edm:hasType|dcterms:medium|
+|Identifier|dpla:SourceResource / dcterms:identifier|dc:identifier|
+|Language|dpla:SourceResource / dcterms:language|dc:language|
+|Place|dpla:SourceResource / dcterms:spatial|dcterms:spatial|
+|Publisher|dpla:SourceResource / dcterms:publisher|dc:publisher|
+|Rights Holder|dpla:SourceResource / dcterms:rightsholder|dcterms:rightsHolder|
+|Subject|dpla:SourceResource / dcterms:subject|dc:subject|
+|Temporal Coverage|dpla:SourceResource / dcterms:temporal|dcterms:temporal|
+|Title|dpla:SourceResource / dcterms:title|dc:title|
+|Type|dpla:SourceResource / dcterms:type|dc:type|
+|Data Provider|ore:Aggregation / edm:dataProvider|dcterms:provenance|
+|Is Shown At|ore:Aggregation / edm:isShownAt|edm:isShownAt|
+|Preview|ore:Aggregation / edm:preview|edm:preview|
+|Provider|ore:Aggregation / edm:provider|New Hampshire Digital Library|
+|Standardized Rights Statement|ore:Aggregation / edm:rights|dc:rights|
+
+## Questions?
+
 Contact the New Hampshire DPLA Hub Metadata Committee:
 [NH-digital-library-tech@googlegroups.com](mailto:NH-digital-library-tech@googlegroups.com)
 
