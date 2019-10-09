@@ -30,7 +30,7 @@ Fields for which there is no available information should be left blank. Avoid u
 ---
 Metadata describing each item is written according to the Dublin Core Qualified metadata schema. While there are many Dublin Core elements, the following are either required or recommended.
 
-##Guidelines for filling in the following metadata elements are described in this document:
+Guidelines for filling in the following metadata elements are described in this document:
 
 Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
 |------------|------------------|------------------|------------------|
