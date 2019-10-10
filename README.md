@@ -32,8 +32,8 @@ Metadata describing each item is written according to the Dublin Core Qualified 
 
 Guidelines for filling in the following metadata elements are described in this document:
 
-Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
-|------------|------------------|------------------|------------------|
+|Field Name|Dublin Core Element| Required by DPLA| Required by NH HUB|
+|----------|-------------------|-----------------|-------------------|
 |Creator |dc.creator| Strongly Recommended|Strongly Recommended|
 |Contributor |dc.contributor| Optional|Optional|
 |Date |dc.date |Strongly Recommended|Strongly Recommended|
